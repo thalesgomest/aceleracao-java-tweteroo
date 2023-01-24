@@ -30,7 +30,7 @@ Os requisitos do projeto foram:
 -   [x] Para persistir os dados (usuários e tweets), utilize variáveis globais em memória
 -   [x] O formato de um **usuário** deve ser:
 
-```JSON
+```javascript
 {
 	username: 'bobesponja',
 	avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
@@ -39,11 +39,11 @@ Os requisitos do projeto foram:
 
 -   [x] O formato de um tweet deve ser:
 
-```JSON
+```javascript
 {
 	username: "bobesponja",
 	avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-    text: "eu amo o hub"
+    	text: "eu amo o hub"
 }
 ```
 
@@ -54,9 +54,9 @@ Os requisitos do projeto foram:
 
 -   [x] Deve receber (pelo body da request), um parâmetro username e um avatar, contendo o nome do username do usuário e a sua foto de avatar:
 
-```JSON
+```javascript
 {
-    username: "bobesponja",
+    	username: "bobesponja",
 	avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
 }
 ```
@@ -69,10 +69,10 @@ Os requisitos do projeto foram:
 
 -   [x] Deve receber (pelo body da request), os parâmetros `username` e `tweet`:
 
-```JSON
+```javascript
 {
 	username: "bobesponja",
-    tweet: "eu amo o hub"
+    	tweet: "eu amo o hub"
 }
 ```
 
@@ -87,7 +87,7 @@ Os requisitos do projeto foram:
 -   [x] Esse endpoint deverá receber a página identificada via query string (`?page=1`).
 -   [x] Deve retornar corretamente os tweets da “página” (`page`) atual, esse endpoint também será chamado ao clicar no botão “**Carregar mais**” (isso já foi feito no front-end). A primeira página corresponde aos últimos 5 tweets, a segunda do 6 ao 10, a terceira do 11 ao 15, etc…
 
-```JSON
+```javascript
 [
 	{
 		username: "bobesponja",
@@ -104,12 +104,12 @@ Os requisitos do projeto foram:
 
 -   [x] Retornar todos os tweets publicados do usuario recebido por parâmetro de rota
 
-```JSON
+```javascript
 [
 	{
 		username: "bobesponja",
 		avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-	    tweet: "eu amo o hub"
+	    	tweet: "eu amo o hub"
 	}
 ]
 ```
