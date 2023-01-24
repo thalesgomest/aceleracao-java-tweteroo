@@ -8,7 +8,8 @@ Neste projeto não foi desenvolvido o front-end do projeto. Ele já está pronto
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/97575616/214175851-d83e3b8e-d8c5-4c1e-a8a2-73ed7accf48e.png)
+<img src="https://user-images.githubusercontent.com/97575616/214195207-22cdaf11-e95d-48ee-a757-58c8eca605b0.png" alt="Girl in a jacket" height="600">
+<img src="https://user-images.githubusercontent.com/97575616/214195725-dad1839e-0532-47c0-80c3-2f8ec43a2e12.png" alt="Girl in a jacket" height="600">
 
 </div>
 
